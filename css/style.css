@@ -1,0 +1,185 @@
+body {
+	background: #000000;	
+}
+.icon {
+	
+}
+.header {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: url(../images/monkimage.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	color: #FFDEAD;
+}
+h6{
+	font-size: 20px;
+	font-family: dawning of a new day;
+}
+.article {
+	padding: 0px;
+	background: black;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	background-origin: padding-box;
+	color: white;
+	font-family: great vibes;
+}
+h1 {
+	font-size: 20px;
+	font-family: dawning of a new day;
+}
+p {
+	text-align: justify;
+	margin-left: 200px;
+	margin-top: 0px;
+	font-size: 30px;
+	text-indent: 10%;
+}
+.showcase {
+	padding: 115px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background: url(../images/candles-209157__340.jpg);
+	background-image: cover;
+	background-size: contain;
+}
+
+.container{
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	color: white;
+	display: grid;
+	gri-template-columns: auto;
+	grid-template-rows: auto;
+	margin: 0px;
+}
+#one {
+	grid-column;1/2;
+	grid-row: 1/2;
+	margin-left: 100px;
+	box-sizing: content-box;
+}
+#one:hover {
+	background: #003595;
+}
+#two {
+	grid-column: 2/3;
+	grid-row:1/2;
+	box-sizing: content-box;
+}
+#two:hover {
+	background: #003595;
+}
+#three {
+	grid-column: 3/4;
+	grid-row: 1/2;
+	box-sizing: content-box;
+}
+#three:hover {
+	background: #003595;
+}
+#four {
+	grid-column: 4/5;
+	grid-row: 1/2;
+	margin-right: 100px;
+	box-sizing: content-box;
+}
+#four:hover {
+	background: #003595;
+}
+.border {
+	margin-left: 300px;
+	margin-right: 300px;
+	box-sizing: content-box;
+	border: 1px solid #FFDEAD;
+	border-top-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+.border p {
+	font-family: great vibes;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	color: white;
+}
+.foot {
+	margin-top: 5px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-size: contain;
+	
+}
+.footer {
+	margin-left: 300px;
+	margin-right: 300px;
+	border: solid #FFDEAD;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 10px;
+	border-bottom-width: 8px;
+}
+p {
+	font-family: great vibes;
+	font-size: 25px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	color: white;
+}
+.twooo {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.article-left {
+	padding: 30px;
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 100px;
+	background-image: url(../images/The_Birth_of_Ultimate_Hope-200.png);
+	border: 5px solid black;
+	border-top-width: 2px;
+	border-bottom-width: 0px;
+}
+.picture-right {
+	padding: 100px;
+	margin-right: 100px;
+	background-image: url(../images/47273239_1240815146059031_5058884275349225472_n.jpg);
+	background-size: contain;
+	border: 5px solid black;
+	border-left-width: 0px;
+	border-top-width: 2px;
+	border-bottom-width: 0px;
+}
+.end {
+	border-top: none;
+	border: 5px solid black;
+	background: #FFDEAD;
+	padding: 10px;
+	color: black;
+	font-style: italic;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	font-family: delius unicase;
+	font-size: 10px;
+}
+.end p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: delius unicase;
+	text-align: center;
+	color: black;
+}
+
+	
